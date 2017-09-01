@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    tools:context="com.victoralejandro.pizzago.SplashActivity">
+
+    <TextView
+        android:id="@+id/titulosplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_splash_pizzago"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/dm_titulo_splash_pizzago"
+       android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_below="@+id/titulosplash"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageview_splash_layoutheigth"
+        android:src="@drawable/bg_splash_pizza"
+        android:id="@+id/pizzalogo"
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

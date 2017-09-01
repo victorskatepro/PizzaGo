@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margintop_main">8dp</dimen>
+    <dimen name="txtsp_principal">18sp</dimen>
+    <dimen name="dm_titulo_splash_pizzago">40sp</dimen>
+    <dimen name="imageview_splash_layoutheigth">500dp</dimen>
+    <dimen name="videoview_prinicipal_layoutheigth">340dp</dimen>
+    <dimen name="mgtop_principal_17dp">17dp</dimen>
+    <dimen name="paddingleft_principal_100dp">100dp</dimen>
+    <dimen name="padding_principal_menos100dp">-100</dimen>
+    <dimen name="texsize_principal_25sp">25sp</dimen>
+    <dimen name="marginleft_principal_layoutprincipal_12dp">12dp</dimen>
+    <dimen name="margintop_solicitud_layoutprincipal_8dp">8dp</dimen>
+    <dimen name="paddingleft_solicitud_60dp">60dp</dimen>
+    <dimen name="paddingright_solicitud_90dp">90dp</dimen>
+    <dimen name="txtsize_solicitud_button_25sp">25sp</dimen>
+    <dimen name="padding_custom_confirmacion_26dp">26dp</dimen>
+    <dimen name="txtsize_custom_confirmacion_titulo_20sp">20sp</dimen>
+    <dimen name="txtsize_custom_confirmacion_19sp">19sp</dimen>
+    <dimen name="margintop_custom_cofirmacion_16dp">16dp</dimen>
+</resources>

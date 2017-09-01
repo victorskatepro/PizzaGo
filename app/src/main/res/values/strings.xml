@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PizzaGo</string>
+    <string name="tipo_de_pizza">Tipo de Pizza</string>
+    <string name="title_splash_pizzago">PIZZAGO</string>
+    <string name="btn_principal_pedir">Pedir</string>
+    <string name="titulo_sorlicitud_tipo_de_pizza">Tipo de Pizza</string>
+    <string name="txttitudo_custom_confirmacion_confirmacion_de_pedido">Confirmacion de pedido</string>
+    <string name="su_pedido_de_meet_lover_con_masa_gruesa_a_s_65_00_igv_esta_en_proceso_de_envio">Su pedido de Meet Lover con masa gruesa a S/65.00 + IGV esta en proceso de envio</string>
+    <string-array name="tipopizza_arrays">
+        <item>Americana</item>
+        <item>Hawaina</item>
+        <item>Super Suprema</item>
+        <item>Meat Lover</item>
+    </string-array>
+</resources>

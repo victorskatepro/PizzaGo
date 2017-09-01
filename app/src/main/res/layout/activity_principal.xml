@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.victoralejandro.pizzago.PrincipalActivity">
+    <android.support.v7.widget.ContentFrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/framevideo"
+        android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/videoview_prinicipal_layoutheigth" />
+    </android.support.v7.widget.ContentFrameLayout>
+    <Button
+        android:id="@+id/btnpedir"
+        android:layout_marginTop="@dimen/mgtop_principal_17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_principal_pedir"
+        android:drawableLeft="@drawable/ic_local_pizza"
+        android:background="@color/primary_dark"
+        android:drawablePadding="@dimen/padding_principal_menos100dp"
+        android:paddingLeft="@dimen/paddingleft_principal_100dp"
+        android:layout_below="@+id/framevideo"
+        android:textSize="@dimen/texsize_principal_25sp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

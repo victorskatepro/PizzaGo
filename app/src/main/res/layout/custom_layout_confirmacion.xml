@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_custom_confirmacion_26dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txttitudo_custom_confirmacion_confirmacion_de_pedido"
+    android:textColor="@color/primary_text"
+    android:textSize="@dimen/txtsize_custom_confirmacion_titulo_20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textconfirmacion"
+        android:textColor="@color/secondary_text"
+        android:text="@string/su_pedido_de_meet_lover_con_masa_gruesa_a_s_65_00_igv_esta_en_proceso_de_envio"
+        android:textSize="@dimen/txtsize_custom_confirmacion_19sp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margintop_custom_cofirmacion_16dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btncancelar"
+        android:text="Cancelar" />
+    <Button
+        android:id="@+id/btnaceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="OK" />
+    </RelativeLayout>
+</LinearLayout>
